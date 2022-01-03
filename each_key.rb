@@ -5,3 +5,7 @@ big_chungas = {
 }
 
 big_chungas.each_key {|key| puts key}
+
+# big
+# medium
+# small

@@ -92,3 +92,13 @@ when astronaut == "Sally Ride"
 else
 	puts "I don't know many astronauts"
 end
+
+#7 A shorter version:
+
+stoplight = ['green', 'yellow', 'red'].sample
+
+case stoplight
+when 'green'  then puts 'Go!'
+when 'yellow' then puts 'Slow down!'
+else               puts 'Stop!'
+end

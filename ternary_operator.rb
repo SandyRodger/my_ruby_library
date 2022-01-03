@@ -5,7 +5,7 @@
 puts tacos_eaten >=5? "Sir, you've had enough!"
 : "keep eating tacos!"
 
- #2
+#2
 
  true ? "this is true" : "this is untrue"
 
@@ -15,3 +15,9 @@ puts tacos_eaten >=5? "Sir, you've had enough!"
  tool=gets.chomp!
 
 puts tool == "spoon"? "Yes, their curvey grace is truly stirring": "What! Surely you mean, spoooooooooon!"
+
+#4
+
+boolean = [true, false].sample
+
+puts boolean "I am true!" : "I am false"

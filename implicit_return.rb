@@ -3,3 +3,5 @@ def cutlery(a)
 end
 
 cutlery(3)
+
+# => returns 5, prints nothing
